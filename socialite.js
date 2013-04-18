@@ -450,7 +450,7 @@ window.Socialite = (function(window, document, undefined)
         widget: function(n, w, params)
         {
             params.name = n + '-' + w;
-            if (!networks[n] || widgets[params.name]) {
+            if (!networks[n]) {
                 return;
             }
             params.network = networks[n];
