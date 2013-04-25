@@ -19,6 +19,8 @@ window.Socialite = (function(window, document, undefined)
 
         settings: { },
 
+        networks: networks,
+
         trim: function(str)
         {
             return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g,'');
